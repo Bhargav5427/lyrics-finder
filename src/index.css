@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: rgb(1, 41, 43);
+  background: linear-gradient(
+    273deg,
+    rgb(0, 0, 0) 0%,
+    rgb(28, 0, 54) 50%,
+    rgba(5, 0, 5, 1) 100%
+  );
+}
+audio {
+  width: auto;
+  height: 50px; /* Increased height for better control visibility */
+}
